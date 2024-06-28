@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Cards</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+      .card-title {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 0;
+      }
+      .card-logo {
+        width: 10px;
+        height: 10px;
+        margin: 10px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg"
+          alt="Card Image 1"
+        />
+        <div class="card-title">Vijay Shekhar Sharma</div>
+        <p style="margin-top: -5px; color: #544d4f; font-size: 14px">
+          Founder & CEO
+        </p>
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg"
+          alt="Logo 1"
+          class="card-logo"
+          style="width: 100px; height: 40px; margin-top: -10px"
+        />
+      </div>
+      <div class="card">
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png"
+          alt="Card Image 2"
+        />
+        <div class="card-title">Kunal Shah</div>
+        <p style="margin-top: -5px; color: #544d4f; font-size: 14px">Founder</p>
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/cred_0a47d7b4f8.png"
+          alt="Logo 2"
+          class="card-logo"
+          style="width: 100px; height: 40px; margin-top: -10px"
+        />
+      </div>
+      <div class="card">
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amrish_rau_pine_labs_144e5e587c.jpg"
+          alt="Card Image 3"
+        />
+        <div class="card-title">Amrish Rau</div>
+        <p style="margin-top: -5px; color: #544d4f; font-size: 14px">CEO</p>
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/pine_labs_0aa2407434.png"
+          alt="Logo 3"
+          class="card-logo"
+          style="width: 100px; height: 40px; margin-top: -10px"
+        />
+      </div>
+      <div class="card">
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Sampad_swain_Instamojo_f12bf6341e.jpg"
+          alt="Card Image 4"
+        />
+        <div class="card-title">Sampad Swain</div>
+        <p style="margin-top: -5px; color: #544d4f; font-size: 14px">
+          Co-Founder & CEO
+        </p>
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/instamojo_8763e704f7.png"
+          alt="Logo 4"
+          class="card-logo"
+          style="width: 100px; height: 40px; margin-top: -10px"
+        />
+      </div>
+    </div>
+  </body>
+</html>
